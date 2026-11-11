@@ -1,0 +1,213 @@
+#closeHeader {
+    background-color: black !important;
+    color: white !important;
+    overflow: visible !important;
+}
+#closeTitle {
+    color: white !important;
+}
+.buttonRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    margin-left: -10px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-Btns {
+        margin-left: 15px;
+    }
+}
+
+.moveAside {
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+}
+.moveLeft {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+}
+.moveLeft2 {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+}
+
+.float-parent-element {
+    width: 50%;
+}
+.float-child-element {
+    float: left;
+    width: 50%;
+}
+.red {
+    float: right;
+}
+.yellow {
+    float: left;
+}
+#Custom-CardBackgrdColor {
+    background-color: white;
+}
+
+#down-icon {
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(243, 243, 244);
+    padding: 7px 10px;
+    border-radius: 18px;
+    font-size: 16px;
+}
+#main-title {
+    height: 80px;
+}
+#dropdown-basic-button {
+    margin-top: -9px;
+}
+
+/* FAQ */
+
+.customInput {
+    background-color: red;
+}
+.browser-heading {
+    text-align: center;
+    font-size: 32px;
+    color: #006cb7;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -4%;
+}
+.browser-heading span {
+    font-weight: bold;
+}
+.category-box {
+    font-size: 13px;
+    font-weight: 8px;
+}
+.city-info {
+    margin-left: 25px;
+}
+.title {
+    align-items: center;
+}
+.quick-solution {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 56px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50%;
+}
+.quick-solution span {
+    text-transform: lowercase;
+    font-size: 20px;
+}
+.quick-solution h2 {
+    margin-bottom: 3%;
+}
+.suggestion-category {
+    background-color: #8a7e3b21;
+}
+.question-item {
+    border-left: 1px solid black;
+    height: 100%;
+}
+.questions {
+    padding: 10px 0;
+    padding-left: 16px;
+    font-weight: 450;
+}
+.questions span {
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.default_content {
+    margin-bottom: 20px;
+}
+
+.question-list {
+    font-size: 15px;
+}
+
+.question-list:first-letter {
+    text-transform: uppercase;
+}
+
+.question-answer {
+    color: #0d6eb6;
+    font-size: 24px;
+}
+.custom-searchbardiv {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 650px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.category-info {
+    margin-bottom: 30px;
+}
+.custom_error_content {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+.custom_input_div {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom_site-button {
+    height: "50px";
+    bottom: "90px";
+}
+.dez-bnr-inr.dez-bnr-inr-md {
+    height: 400px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-topdiv {
+        margin-top: 30% !important;
+    }
+}
+
+.custom_div {
+    height: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .custom_error_content {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text-div {
+        width: 100% !important;
+    }
+}
+.city-bx:after {
+    background-color: #c2c2c2 !important;
+}
+@media only screen and (max-width: 600px) {
+    .custom_quesDiv {
+        margin-left: 7% !important;
+    }
+}
+#job_req_bx {
+    padding: 1px 18px !important;
+}
+
+.divider{
+    z-index: -1;
+}

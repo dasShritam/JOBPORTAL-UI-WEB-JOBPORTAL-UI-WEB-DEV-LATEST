@@ -1,0 +1,183 @@
+.error {
+  color: red;
+}
+
+#nextbtn {
+  padding-bottom: 10px;
+  padding-left: 25px;
+  font-size: 14px;
+  padding-top: 3px;
+  margin-left: 78%;
+}
+@media screen and (max-width: 500px) {
+  #nextbtn {
+    margin-left: 53%;
+  }
+}
+.nexticon {
+  padding-top: 12px;
+}
+.backicon {
+  padding-top: 12px;
+}
+
+#phonenum {
+  margin-right: -0px;
+  width: 338px;
+}
+@media screen and (max-width: 500px) {
+  #phonenum {
+    width: 124px;
+  }
+}
+#createbtn {
+  margin-left: 240px;
+  font-size: 14px;
+}
+
+#backbtn {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+@media only screen and (max-width: 767px) {
+  #createbtn {
+    margin-left: 16px !important;
+    padding-top: 9px;
+    width: auto;
+  }
+}
+
+#address {
+  height: 150px;
+  resize: none;
+}
+
+#phonenumber {
+  display: flex;
+}
+
+#code {
+  border: none;
+  box-shadow: none;
+}
+
+#btn {
+  margin-top: 20px;
+  display: flex;
+}
+#checkbtn {
+  background-color: red !important;
+  color: orangered !important;
+  /* width: 50px;
+  height: 50px; */
+}
+
+/* .code .css-13cymwt-control {
+    width: 150px;
+    background-color: #fff !important;
+    border: 0 !important;
+    box-shadow: 0 0 10px 0 rgb(0 24 128 / 10%) !important;
+}
+
+.selectdrop .css-13cymwt-control {
+
+    background-color: #fff !important;
+    border: 0 !important;
+    box-shadow: 0 0 10px 0 rgb(0 24 128 / 10%) !important;
+} */
+
+#react-select-2-listbox {
+  width: 290px;
+  /* max-height: 200px;
+  overflow: scroll; */
+}
+
+#react-select-4-listbox {
+  width: 100% !important;
+}
+/* #react-select-6-listbox{
+  width: 290px;
+}
+#react-select-8-listbox{
+  width: 290px;
+}
+#react-select-10-listbox{
+  width: 290px;
+}  */
+
+.css-1nmdiq5-menu {
+  width: 290px;
+}
+#phonenumbers {
+  display: flex;
+}
+#phonenums {
+  width: 320px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* @media screen and (max-width: 400px) {
+  div#formstepper {
+    width: 400px;
+  }
+} */
+@media screen and (max-width: 500px) {
+  div#hideonlgemp {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  div.icon-bx-wraper {
+    display: none;
+  }
+  div.accessDiv {
+    width: 300px;
+    margin-left: -10px;
+  }
+  #codemob {
+    max-width: 120px;
+    min-width: 120px;
+  }
+  #phonenums {
+    min-width: 160px;
+    max-width: 250px;
+    /* width: 50%; */
+  }
+  #phonenumbers {
+    width: 100%;
+  }
+}
+.MuiStepper-root {
+  padding: 10px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .empregistermaindiv {
+    margin-top: 18% !important;
+  }
+}
+/* #react-select-4-listbox {
+  width: 150px !important;
+}
+.css-1nmdiq5-menu {
+  width: 150px !important;
+} */
+.emphomebtn {
+  border: none;
+  margin-top: 26px;
+  background: #fff;
+  height: 35px;
+  width: 140px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #016acb;
+  cursor: pointer;
+  margin-left: 29%;
+}
+.main-divregister {
+  padding-top: 0% !important;
+}

@@ -1,0 +1,50 @@
+/* #hybrid-policy{
+    margin-top: 4%;
+} */
+#headerjds{
+    background-color: black !important;
+    color: white !important;
+}
+#titlejds{
+    color: white !important;
+}
+#react-select-2-listbox{
+    width: 430px;
+}
+#react-select-4-listbox{
+    width: 430px !important;
+}
+
+.activeCardBorder{
+    border: 1.5px solid #494bf9;
+}
+
+.p-10{
+    padding: 10px;
+}
+.templateName{
+    font-size: 15px;
+    font-weight: 500;
+}
+.tempQuestion{
+
+}
+#r4:-grid-label{
+    opacity: 1 !important;
+    transition-duration: 250ms !important;
+}
+.MuiPickersCalendarHeader-label css-dplwbx-MuiPickersCalendarHeader-label{
+    opacity: 1 !important;
+    transition-duration: 250ms !important;
+}
+.datepicker {
+    transition-duration: 250ms !important;
+  }
+  .css-dplwbx-MuiPickersCalendarHeader-label{
+    opacity: 1 !important;
+    transition-duration: 250ms !important;
+  }
+  .MuiPickersFadeTransitionGroup-root css-31ca4x-MuiPickersFadeTransitionGroup-root{
+    opacity: 1 !important;
+    transition-duration: 250ms !important;
+  }

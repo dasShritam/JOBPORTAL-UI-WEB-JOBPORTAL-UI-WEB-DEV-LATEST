@@ -1,0 +1,358 @@
+.profileImage {
+  width: 33px;
+  height: 31px;
+  border-radius: 50%;
+  background: #e3ad3e;
+  color: white;
+  text-align: center;
+  line-height: 29px;
+  margin: 1px 0;
+  font-weight: 500;
+}
+.navbar-expand-lg .navbar-collapse {
+  display: block !important;
+}
+.mp-profile {
+  height: 100%;
+  width: 100%;
+}
+
+.logo-header img {
+  margin-right: 101px;
+  /* margin-left: 60px !important; */
+  /* margin-top: -36px; */
+}
+.emplogo-header img {
+  margin-right: 205px;
+  /* margin-left: 60px !important; */
+  /* margin-top: -36px; */
+}
+
+.fullwidth .header-nav .nav > li > a {
+  padding: 0px 15px;
+  border-radius: 4px;
+}
+.fullwidth .empheader-nav .nav > li > a {
+  padding: 12px 37px;
+  border-radius: 0px;
+  margin-left: -8px;
+}
+
+.profile-up {
+  border-radius: 50%;
+  margin-left: -24px;
+}
+
+.profile-up:hover {
+  background-color: lightblue;
+}
+
+.custom-clearfix {
+  border-bottom-style: solid;
+  border-color: #6f717124;
+  border-width: 1px;
+}
+
+.fullwidth .empheader-nav .nav > li:hover > a {
+  background-color: #3d4957 !important;
+  color: rgb(255 255 255) !important;
+  text-decoration: none !important;
+}
+.fullwidth .header-nav .nav > li:hover > a {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.profileicon:hover {
+  background-color: #3d4957 !important;
+  color: rgb(255 255 255) !important;
+}
+.logout {
+  font-size: 17px !important;
+  margin-right: 3px !important;
+  color: #3c82dc !important;
+  padding-top: 2px;
+}
+
+.empheader-nav .nav > li .sub-menu li a {
+  font-size: 13px;
+  padding: 15px 23px;
+  color: white;
+}
+.header-nav .nav > li .sub-menu li a {
+  font-size: 13px;
+  padding: 10px 23px;
+
+  /* color: #166d71; */
+  color: #3d4957;
+}
+.empheader-nav .nav > li .sub-menu li a {
+  font-size: 13px;
+  padding: 15px 23px;
+  color: white;
+}
+.Profile-AV {
+  padding-top: 10px;
+  margin-top: 10px !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: block !important;
+  }
+}
+
+.login-footer .container {
+  border-top: 1px solid rgb(8 52 255 / 30%) !important;
+  padding: 11px 0 !important;
+}
+
+.borderh {
+  border-bottom-style: solid;
+  border-bottom-color: #f2f2f2;
+  border-width: 1px;
+}
+
+@media screen and (min-width: 500px) {
+  div#hideonlgjob {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  div#hideonlgemp {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  div#hideonlgjob {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .emplogo-header img {
+    margin-right: 0px !important;
+    /* margin-left: 60px !important; */
+    /* margin-top: -36px; */
+  }
+}
+
+#jobshow {
+  display: contents;
+}
+
+/* employer profile headet css */
+
+.menuname {
+  color: #3d4957 !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileicon {
+  padding: 23px 27px;
+}
+
+.menuicon {
+  font-size: 25px !important;
+}
+
+.submenu-name {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.child-menu {
+  background-color: #3d4957 !important;
+  border-radius: 0px 4px 4px 4px !important;
+  left: -8px !important;
+  border: 1px solid #3d4957 !important;
+  padding: 0px 0;
+}
+
+.p-child-menu {
+  left: -171px !important;
+  width: 250px !important;
+}
+
+.child-menu li a:hover {
+  /* background-color: #56ad8b !important; */
+  background-color: #626970e6 !important;
+  color: white !important;
+}
+
+.chngpass {
+  background-color: #3d4957 !important;
+}
+
+.loginper {
+  color: #33b0a5;
+  text-transform: capitalize;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.prosection {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.lgbt {
+  margin-top: 10px;
+  margin-left: 14px;
+}
+
+.emplog {
+  background-color: #626970e6 !important;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.emplog:hover {
+  background-color: #0e3c59 !important;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.logbtn {
+  padding: 13px 0px 0px 8px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 991px) {
+  .fullwidth .empheader-nav .nav > li > a {
+    padding: 14px 12px !important;
+    /* border-radius: 0px; */
+    margin-left: 164px !important;
+  }
+
+  .profileicon {
+    margin-left: 46% !important;
+    padding-left: 143px !important;
+    padding: 14px;
+  }
+  .child-res {
+    margin-left: 46% !important;
+  }
+
+  /* .child-res li {
+    border: 1px solid #8292a4 !important;
+  } */
+
+  .header-nav .nav i {
+    margin-top: -4px;
+  }
+
+  .loginper {
+    color: #33b0a5;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+}
+
+.jobmenu {
+  margin-right: 59px !important;
+  margin-top: 25px !important;
+}
+
+.jobhead {
+  background-color: #ffffff !important;
+  color: #000 !important;
+  padding: 11px 15px !important;
+}
+
+.jobhead:hover {
+  background-color: #2e55fa !important;
+  color: #fff !important;
+}
+
+.mhead {
+  margin-left: 49px !important;
+}
+
+.respon {
+  z-index: 9 !important;
+}
+
+.headerStyle {
+  background-color: "#fff";
+  box-shadow: 0 0 15px 0 rgba(0, 24, 128, 0.2);
+}
+
+.profileinfo {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  text-transform: none !important;
+  border-bottom: 1px solid gray;
+}
+
+/* @media screen and (max-width: 991px) {
+  .listyle {
+    background-color: #103247 !important;
+  }
+  .respon {
+    background-color: #103247 !important;
+  }
+} */
+
+.profileDivMobile {
+  height: auto;
+  display: none;
+  left: 160px;
+  position: relative;
+}
+.profileImgMobile {
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+  background: #ffffff;
+}
+
+.userName {
+  font-size: 16px;
+  color: #e7e2e2;
+}
+.userEmail {
+  font-size: 13px;
+  color: #c5c5c5;
+}
+
+@media only screen and (max-width: 768px) {
+  .profileDivMobile {
+    display: block !important;
+  }
+  .buttonsMobile {
+    display: block !important;
+  }
+  .header-nav {
+    background: #323e4e !important;
+    z-index: 10 !important;
+  }
+  .header-nav .nav {
+    background: #323e4e !important;
+  }
+  .menuname i > svg {
+    display: none;
+  }
+  .menuname .submenu-name {
+    color: #e7e2e2;
+  }
+}
+
+.show {
+  display: block !important;
+}

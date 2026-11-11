@@ -1,0 +1,165 @@
+/* Admin dashboard css start */
+.empHeader {
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.jobHeader {
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.btnActive {
+  margin-top: 28px;
+  margin-left: 40px;
+}
+.btnNonActive {
+  margin-left: 180px;
+  margin-top: -38px;
+  margin-bottom: -100px;
+}
+
+.btnActiveEmp {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.btnNonActiveEmp {
+  margin-left: 180px;
+
+  margin-top: -62px;
+}
+
+.my-actions {
+  margin: 0 2em;
+}
+.order-2 {
+  order: 2;
+}
+.order-3 {
+  order: 3;
+}
+
+.right-gap {
+  margin-right: auto;
+}
+
+h2#swal2-title {
+  font-size: 22px;
+}
+.css-rtrcn9-MuiTablePagination-root .MuiTablePagination-selectLabel {
+  margin-bottom: 0 !important;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+  margin-bottom: 0 !important;
+}
+
+/* Admin dashboard css end*/
+
+.cardone {
+  height: 10px;
+  border-radius: 10px;
+  min-height: 187px;
+  max-height: 170px;
+  background-color: #fff;
+  box-shadow: 0 5px 25px #0000001a;
+}
+
+.empcard {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 42px !important ;
+}
+
+.user-icon {
+  font-size: 25px;
+  color: #29d7ec;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+.user-icon-emp {
+  font-size: 25px;
+  color: #f6875c;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+.iconss {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #dff8fb;
+}
+
+.iconss-emp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fbebdf;
+}
+
+.count-emp {
+  padding-left: 60px !important;
+}
+
+.keyys {
+  font-size: 15px !important ;
+}
+
+.close {
+  color: #ff5151;
+  opacity: 1;
+}
+
+.model-close {
+  font-size: 21px;
+  color: red;
+  border-style: solid;
+  border-radius: 54%;
+  padding: 4px 7px 4px 6px;
+}
+.eye-btn {
+  margin-bottom: 20px;
+  position: relative;
+  top: 54px;
+  float: right;
+  right: 2%;
+}
+
+.assessSMcard1 {
+  background: #2e5eaa;
+  padding: 16px;
+  font-size: 14px;
+  color: #fff;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.assessSMcard2 {
+  background: #0ead69;
+  padding: 16px;
+  font-size: 14px;
+  color: #fff;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.assessSMcard3 {
+  background: #ee4266;
+  padding: 16px;
+  font-size: 14px;
+  color: #fff;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.assessSMcard4 {
+  background: #ffd23f;
+  padding: 16px;
+  font-size: 14px;
+  color: #fff;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}

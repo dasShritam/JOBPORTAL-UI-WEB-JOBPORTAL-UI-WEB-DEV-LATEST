@@ -1,0 +1,169 @@
+.dashname {
+  text-transform: uppercase;
+  color: #8d65c5;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+.card2dash {
+  padding-bottom: 16px;
+  padding-left: 10px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.smCard {
+  padding: 10px 15px;
+  box-shadow: 0 0 10px 0 rgba(0, 24, 128, 0.1);
+  border-radius: 8px;
+}
+
+.smcon {
+  text-align: center;
+}
+
+.dashCount {
+  font-size: 28px;
+  font-family: Montserrat, Helvetica, Arial, serif;
+  letter-spacing: 1px;
+  color: aliceblue;
+}
+
+.iDash {
+  font-size: 15px;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: Montserrat, Helvetica, Arial, serif;
+  border-radius: 3px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.iDash1 {
+  font-family: Montserrat, Helvetica, Arial, serif;
+  font-size: 15px;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.iDash2 {
+  font-family: Montserrat, Helvetica, Arial, serif;
+  font-size: 15px;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.iDash3 {
+  font-family: Montserrat, Helvetica, Arial, serif;
+  font-size: 15px;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.dash1 {
+  background: linear-gradient(to right, #f74145, #ecc6c7);
+}
+.dash2 {
+  background: linear-gradient(to right, #22c0e7, #b3dde8);
+}
+.dash3 {
+  background: linear-gradient(to right, #02b69b, #86e9da);
+}
+.dash4 {
+  background: linear-gradient(to right, #8146d2, #c8a5f8);
+}
+
+@media only screen and (max-width: 991px) {
+  .dash1 {
+    background: linear-gradient(to right, #fe9496, #ecc6c7);
+    margin-bottom: 10px;
+  }
+  .dash2 {
+    background: linear-gradient(to right, #4bcbeb, #b3dde8);
+    margin-bottom: 10px;
+  }
+  .dash3 {
+    background: linear-gradient(to right, #1bcfb4, #86e9da);
+    margin-bottom: 10px;
+  }
+  .dash4 {
+    background: linear-gradient(to right, #9e58ff, #c8a5f8);
+    margin-bottom: 10px;
+  }
+}
+
+.dashSty {
+  margin-top: 15px;
+  border-radius: 19px;
+}
+
+@media only screen and (max-width: 991px) {
+  .dashSty {
+    margin-top: 100px;
+    border-radius: 19px;
+  }
+}
+
+.nodataDash {
+  text-align: center;
+  margin-top: 64px;
+  font-size: 14px;
+}
+.infoprofile {
+  font-size: 10px;
+  margin-top: 10px;
+  background: #c6dcff4d;
+  padding: 3px;
+  /* font-family: ui-sans-serif; */
+  color: #2b51a9;
+  /* letter-spacing: 1px; */
+  border-radius: 5px;
+}
+
+/* .CircularProgressbar .CircularProgressbar-path {
+  stroke: #f4845f;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+} */
+
+.react-calendar__tile--active {
+  background: #c89ef2 !important;
+  color: white !important;
+}
+
+.react-calendar__tile--hasActive {
+  background: #732d91;
+  color: white;
+}
+
+.datepicktrans .react-daterange-picker__calendar  {
+  width: 350px;
+  max-width: 100vw;
+  z-index: 31;
+}
+
+.datepicktrans .css-b62m3t-container  {
+  position: relative;
+  box-sizing: border-box;
+  z-index: 12;
+}
+
+.css-1nmdiq5-menu{
+  z-index: 20 !important;
+}
+.custmclasswidth > #react-select-2-listbox {
+  width: 120px;
+} 

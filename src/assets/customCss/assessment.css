@@ -1,0 +1,489 @@
+.catHead {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.filterlable {
+  font-size: 13px;
+  color: #296fac !important;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+#main-header {
+  height: 68px !important;
+}
+
+.allButton {
+  font-size: 12px;
+}
+
+.namefi {
+  font-size: 16px;
+}
+
+.catfi {
+  font-size: 14px;
+}
+
+.assessimg {
+  width: 122% !important;
+  margin-left: -16px;
+}
+
+.testBtn {
+  font-size: 14px;
+}
+
+.testn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #978ccb;
+}
+.testnsam {
+  font-size: 22px;
+  font-weight: bold;
+  color: #9483d4;
+}
+.heading-title {
+  color: #a09d9d;
+}
+.testcnt {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #7d7d7d;
+  margin-bottom: 17px;
+}
+
+.testdesc {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #3f4141;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.assesDesc {
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6f6f6f;
+}
+/* .ass-score{
+  color: "#947a4a" !important;
+  font-weight: "300" !important;
+  font-size: "12px" !important;
+} */
+
+.list-style {
+  list-style-type: none;
+}
+
+.scoret {
+  /* display: inline !important; */
+  list-style: none;
+}
+
+.practicetest {
+  background-color: aliceblue;
+  /* background-color: #f6ede4; */
+  padding: 11px 20px !important;
+  border-radius: 4px;
+}
+
+.section-scorecard {
+  /* background-color: aliceblue; */
+  background-color: #f6ede4;
+  padding: 11px 20px !important;
+  border-radius: 4px;
+}
+
+.practest {
+  background: white;
+  color: #5984de !important;
+  border-color: #5984de !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.practest:hover {
+  background: #5984de;
+  color: white !important;
+  border-color: #5984de !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.taketestbtn {
+  background: #5984de !important;
+  border-color: #5984de !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.cancelSheduledbtn {
+  background: #3fb185 !important;
+  border-color: #3fb185 !important;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.viewResultbtn {
+  background: #ffa035 !important;
+  border-color: #ffa035 !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.edittestbtn {
+  background: #3fa6a1 !important;
+  border-color: #3fa6a1 !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.paymentHead {
+  font-size: 22px;
+  margin-top: 15px;
+  color: #5d97d0;
+  margin-bottom: 17px;
+}
+
+.assessCur {
+  width: 125% !important;
+}
+
+.modal-payment-mtd {
+  width: 340px !important;
+}
+@media only screen and (max-width: 500px) {
+  .viewSizeass {
+    margin-top: 20% !important;
+  }
+  .heading-score {
+    margin-top: 30% !important;
+  }
+  .report-date-header {
+    display: inline-block;
+  }
+  .payment-success-modal {
+    width: 400px !important;
+    margin-left: 0px !important;
+  }
+  .payment-Id {
+    margin-left: 5% !important;
+  }
+  .check-success {
+    margin-left: -120px !important;
+  }
+  .payStatus-btn {
+    padding-top: 30% !important;
+  }
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  color: #c9c9d1 !important;
+  opacity: 1;
+}
+
+.Paybtn {
+  background: #5bc77f;
+  color: white;
+  border-color: #5bc77f;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  width: 32%;
+}
+.assessCbtn {
+  background: #5b71c7;
+  color: white;
+  border-color: #5bc77f;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  /* border-radius: 20px; */
+  width: 21%;
+}
+.assessCbtn:hover {
+  background: #5b71c7;
+  color: white;
+  border-color: #5bc77f;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  /* border-radius: 20px; */
+  width: 21%;
+}
+.comass-card {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.Paybtn:hover {
+  background: white;
+  color: #5bc77f;
+  border-color: #5bc77f !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  width: 32%;
+}
+.Paycancelbtn {
+  background: white;
+  color: #faa21c;
+  border-color: #faa21c !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  width: 32%;
+}
+.assesscancelbtn {
+  background: #faa21c;
+  color: #ffffff;
+  border-color: #faa21c !important;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* border-radius: 20px; */
+  width: 12%;
+}
+.assesscancelbtn:hover {
+  background: #faa21c;
+  color: #ffffff;
+  border-color: #faa21c !important;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* border-radius: 20px; */
+  width: 12%;
+}
+
+.Paycancelbtn:hover {
+  background: #faa21c;
+  color: white;
+  border-color: #faa21c !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  width: 32%;
+}
+
+.payModel {
+  border-radius: 23px !important;
+}
+
+.model-radius {
+  border-radius: 23px !important;
+}
+
+.imgback {
+  background: #9dc4eb !important;
+  margin-top: -16px;
+  margin-bottom: 15px;
+}
+
+.limittsx {
+  margin-top: 33px;
+  left: -32px;
+}
+
+.PSsuccess {
+  font-size: 22px;
+  background: #03b29e;
+  color: white;
+  text-transform: uppercase;
+  padding: 7px 0px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14pc;
+  margin-top: 19px;
+}
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #7ac142;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+.checkmark {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px #ffffff;
+  animation: fill 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+  border-color: #ffffff;
+}
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #7ac142;
+  }
+}
+
+.PSmsge {
+  font-size: 23px;
+  margin-top: -51px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.paymentD {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.payBorder {
+  border-top: 4px dotted #dee2e6 !important;
+  margin-top: 17px;
+}
+
+.paytit {
+  color: #c1c1c1;
+  font-size: 15px;
+}
+
+.payamo {
+  color: #908b8b;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.testD {
+  padding: 5px 10px;
+  background: #fffaef;
+  font-size: 14px;
+  color: #f5942e;
+  border-radius: 5px;
+}
+.testC {
+  padding: 5px 10px;
+  background: #effcff;
+  font-size: 14px;
+  color: #63cae0;
+  border-radius: 5px;
+}
+.testCost{
+  color: #0986a0 !important;
+}
+.testU {
+  padding: 5px 10px;
+  background: #effffa;
+  font-size: 14px;
+  color: #45c789;
+  border-radius: 5px;
+}
+
+.assessmsge {
+  color: #ac9d9d;
+  font-size: 13px;
+}
+.assessmsg{
+  color: black;
+  font-size: 13px;
+}
+
+.scheduledbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreb {
+  font-size: 41px;
+  margin-top: 10px;
+}
+
+.tScore {
+  /* color: #c8c8c8; */
+  font-size: 11px;
+  margin-bottom: 37px;
+}
+
+.gon {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #5b554f;
+}
+
+.scoun {
+  font-size: 14px;
+  font-weight: 100;
+}
+#cancelbtnAs {
+  font-size: 14px !important;
+}
+#Skillsdropdown {
+  font-size: 14px !important;
+}
+
+.job-bx-img {
+  box-shadow: 0 0 10px 0 rgba(0, 24, 128, 0.1);
+  padding: 0px 0px;
+}
+
+.headCost {
+  /* color: #9c82c7; */
+  font-family: "poppins" !important;
+  margin-left: 26px;
+  margin-top: 13px;
+  font-size: 17px;
+}
+
+.testnameh {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 96%;
+  display: inherit;
+}

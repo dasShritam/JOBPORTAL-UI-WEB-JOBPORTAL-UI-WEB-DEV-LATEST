@@ -1,0 +1,36 @@
+.jdfile{
+    background: #eef1ff;
+    padding: 7px;
+    border-radius: 4px;
+    color: #363434;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-font-size{
+    font-size: 14px !important;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    padding-right: 14px;
+    min-height: 40px !important;
+    margin-top: -8px !important;
+}

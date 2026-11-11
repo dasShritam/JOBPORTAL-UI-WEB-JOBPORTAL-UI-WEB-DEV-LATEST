@@ -1,0 +1,28 @@
+.appstatus{
+    padding-top: 6% !important;
+    margin-left: 2% !important;
+}
+@media screen and (max-width: 500px) {
+    
+    #headingjas{
+        display: block !important;
+    }
+    #carddiv{
+        margin-left: 2% !important;
+    }
+    #Application-status{
+        margin-left: 5% !important;
+    }
+    #chipjas{
+        display: block !important;
+    }
+    #appliedupdate{
+        margin-bottom: 5px;
+    }
+}
+#bdrbac{
+    background-color: black;
+    border-radius: 2px;
+    width: 100% !important;
+    color: black;
+}

@@ -1,0 +1,22 @@
+.sticky-top {
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.can-info .can-details {
+  padding: 36px 0px 34px !important;
+  /* box-shadow: 0 0 10px 0 rgba(0, 24, 128, 0.1) !important; */
+}
+@media only screen and (max-width: 768px) {
+  .custom-page-header2 {
+    margin-top: 10%;
+  }
+}
+
+.prophead {
+  font-size: 21px;
+  color: #115ea2;
+}
+.jprop {
+  margin-top: 41px !important;
+}

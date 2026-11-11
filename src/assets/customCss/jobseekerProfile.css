@@ -1,0 +1,49 @@
+.Vupload {
+  color: #09d9bc;
+  background-color: #dffffb;
+  /* padding: 8px 81px 8px 82px; */
+  padding: 10px;
+  border-radius: 2px;
+  
+}
+.Rupload {
+  color: #6368ff;
+  background-color: #eef1ff;
+  /* padding: 8px 150px 8px 150px; */
+  padding: 10px;
+  border-radius: 2px;
+}
+.RVdeletebtn
+{
+display: flex;  
+justify-content: end;
+}
+.JP-RVlink
+{ 
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+#react-select-4-listbox{
+  width: 550px !important;
+}
+/* #react-select-4-listbox{
+  width: 550px !important;
+} */
+@media screen and (max-width: 500px){
+  #react-select-4-listbox{
+    width: 283px !important;
+  }
+}
+@media screen and (min-width: 800px) {
+  #react-select-4-listbox{
+    width: 550px !important;
+  }
+}
+
+.txtbx_css {
+  background-color: #fff!important;
+ border: 0!important;
+ box-shadow: 0 0 10px 0 rgba(0,24,128,.1)!important;
+ cursor: pointer!important;
+ height: auto!important
+}

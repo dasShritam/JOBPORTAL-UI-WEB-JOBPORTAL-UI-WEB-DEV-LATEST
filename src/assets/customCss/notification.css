@@ -1,0 +1,25 @@
+.myHover {
+  background: "white";
+  font: "black";
+  color: "black";
+  cursor: "pointer";
+  height: 75px;
+  border-bottom: 0.5px solid #495057;
+  font-size: 15px;
+  padding: 2px 7px;
+}
+.myHover:hover {
+  background: rgba(99, 154, 255, 0.775);
+  color: "white";
+}
+.css-ejll1l-MuiBadge-badge {
+  border-radius: 100% !important;
+  min-width: 15px !important;
+  font-size: 0.7rem !important;
+  height: 16px !important;
+  width: auto;
+}
+.myUl1 {
+  font-size: 12px;
+  margin-top: -13px;
+}

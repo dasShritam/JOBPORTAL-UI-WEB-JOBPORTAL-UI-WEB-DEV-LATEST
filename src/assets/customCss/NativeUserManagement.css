@@ -1,0 +1,25 @@
+@media only screen and (max-width: 500px) {
+    .table-scroll-sm{
+        width: 400px !important;
+        overflow-x: scroll !important;
+    }
+    .NativeTitle{
+       margin-top: 70px !important;
+       display:block !important;
+    }
+}
+#roleBgn{
+    background-color: #f0efef!important;
+    color: #8f8888 !important;
+    cursor: default;
+}
+
+/* chip */
+/* .css-w66kx-MuiChip-root .MuiChip-avatar {
+    margin-left: 5px;
+    margin-right: -6px;
+    width: 45px !important;
+    height: 45px !important;
+    color: #616161;
+    font-size: 0.75rem;
+} */

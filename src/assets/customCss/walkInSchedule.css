@@ -1,0 +1,38 @@
+.MuiInputBase-root {
+  height: 40px;
+}
+
+/* style for date picker height in walkInSchedule*/
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  max-height: 40px !important;
+}
+
+/* style for date picker font size in walkInSchedule*/
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 13px !important;
+  color: #938484 !important;
+  /* height: 90% !important; */
+}
+
+#venue {
+  height: 80% !important;
+}
+
+.css-1xhypcz-MuiStack-root {
+  overflow: hidden !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 13px !important;
+  color: #938484 !important;
+}
+
+#search-map {
+  font-size: 13px;
+  display: none;
+}
+
+.subforwalkin {
+  font-size: 13px;
+  color: #938484;
+}

@@ -1,0 +1,73 @@
+.page-content-d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-style {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  /* padding: 1%; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Increase the max-width for more space */
+  width: 90%; /* Adjust the width if needed */
+}
+
+.content-block-d {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 1.5rem;
+  color: #7777d3;
+  font-size: 1.2rem;
+}
+
+.options_d {
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+
+.previous-button {
+  background-color: #7777d3;
+  color: #fff;
+}
+
+.next-button {
+  background-color: #7777d3;
+  color: #fff;
+}
+
+.selected-option {
+  color: #fff;
+  font-weight: bolder;
+  background-color: #79d49c;
+}
+
+.job-bx--d {
+  /* background-color: #fff; */
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 5px rgba(0, 24, 128, 0.1);
+}
+.job-bx-d {
+  box-shadow: 0px 0px 5px 3px rgba(0, 24, 128, 0.1);
+  border-radius: 45px;
+  margin: 7px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1.5rem;
+  }
+}
+
+.selectDiv #react-select-2-listbox {
+  width: 100%;
+}

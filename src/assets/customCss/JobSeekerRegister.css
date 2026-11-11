@@ -1,0 +1,335 @@
+.input-ErrMsg {
+    color: red;
+    font-size: small;
+}
+#phonenums {
+    margin-left: 0%;
+}
+.workStatus {
+    border: 1px solid;
+    width: 180px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 30px;
+    height: 40px;
+    display: inline-block;
+    padding-bottom: -10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .workStatusDiv {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+
+.jobs {
+    display: flex;
+    margin-top: 6%;
+}
+
+.workStatusDiv {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 767px) {
+    #checkBox {
+        margin-left: 1px !important;
+        display: inline-block !important;
+    }
+}
+#checkBox {
+    margin-left: 240px;
+    display: inline-block;
+}
+.maditory {
+    color: red;
+}
+#input-password {
+    display: inline-block;
+}
+
+.eye-btn {
+    margin-bottom: 20px;
+    position: relative;
+    top: 54px;
+    float: right;
+    right: 2%;
+}
+
+#inut-pass {
+    padding-right: 50px;
+    width: 80%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.eyeicon {
+    position: relative;
+    right: 6%;
+}
+#btnRegister {
+    margin-left: 63%;
+}
+
+#resume-Span {
+    fontsize: "14px";
+}
+.countyPointer {
+    cursor: pointer;
+}
+.eyePointer {
+    cursor: pointer;
+}
+#CursorPointer {
+    cursor: pointer;
+}
+#smallTxt {
+    fontsize: 13px;
+    color: grey;
+}
+.countryErrSpan {
+    font-size: 13px;
+    color: red;
+}
+
+.login-footer .container {
+    border-top: 1px solid rgb(8 52 255 / 30%) !important ;
+    padding: 20px 0;
+}
+
+footer p,
+footer strong,
+footer b,
+footer {
+    color: #021c9f;
+}
+footer a,
+footer a:visited {
+    color: #046ec0;
+}
+
+.register-logo {
+    width: 52% !important;
+}
+.card-input-element {
+    display: none;
+}
+
+.card-input-element-status {
+    display: none;
+}
+
+.card-input {
+    /* margin: 10px; */
+    padding: 00px;
+}
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+    box-shadow: 0 0 1px 1px #68dbce;
+    border-radius: 27px;
+}
+
+/* border color for the selected filed like experiance and fresher */
+.card-input-element-status:checked + .card-input {
+    box-shadow: 0 0 2px 1px #11e55ebd;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* background-color: #6dd8b094; */
+}
+
+/*background color for experiance and fresher fileds */
+.panel-default {
+    padding: 8px 35px;
+    box-shadow: 0 0 1px 1px lightgrey;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* background-color: #ffffe0; */
+}
+
+.file-upload {
+    position: relative;
+}
+
+.file-upload-label {
+    display: inline-block;
+    background-color: #ff7555;
+    color: white !important;
+    padding: 9px 65px 5px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.file-upload-label-Video {
+    display: inline-block;
+    background-color: #7d53de;
+    color: white !important;
+    padding: 9px 33px 6px 33px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.file-upload-label-resume {
+    display: inline-block;
+    background-color: #ff7555;
+    color: white !important;
+    padding: 8px 26px 5px 27px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.file-upload-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.file-upload-preview {
+    display: flex;
+    align-items: center;
+    /* background-color: #f0f0f0; */
+    color: #333;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 767px) {
+    .file-upload {
+        display: inline !important;
+    }
+}
+
+.file-name {
+    margin-right: 16px;
+}
+
+.remove-button {
+    color: red;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-access {
+    box-shadow: 0 0 1px 1px #000000;
+}
+
+.btn-design {
+    box-shadow: 0 0 10px 0 rgb(255 255 255 / 15%);
+    background: #6dd8b094;
+    padding: 8px 10px 8px 13px;
+    border-radius: 50px;
+    color: #4fa082 !important;
+}
+
+.btn-designs {
+    background: #d5d5d5;
+    /* padding: 8px 46px 8px 8px; */
+    box-shadow: 0 0 10px 0 rgb(255 255 255 / 15%);
+    border-radius: 50px;
+    padding-top: 7px;
+    padding-left: 17px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    color: #7c7c7c !important;
+}
+
+.custom-file {
+    overflow: hidden;
+    position: relative;
+    padding: 12px;
+    text-align: center;
+    border: 0 !important;
+    /* box-shadow: 0 0 10px 0 rgba(0, 24, 128, 0.1) !important; */
+    height: 50px;
+}
+
+#nextbtns {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 14px;
+    padding-top: 3px;
+    float: right;
+}
+
+.nexticons {
+    padding-top: 12px;
+}
+.backicons {
+    padding-top: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+    #createbtns {
+        margin-left: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .registermaindiv {
+        margin-top: 27% !important;
+    }
+}
+
+#createbtns {
+    margin-left: 225px;
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+#backbtns {
+    /* padding-right: 50px; */
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+/* #city{
+  width: 40px;
+} */
+
+input[type="file"] {
+    opacity: 0;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    font-size: 0;
+    position: absolute;
+}
+
+.table-head-JSR {
+    padding: 9px 15px !important;
+}
+.table-body-JSR {
+    padding: 6px 2px 1px 11px !important;
+}
+.MuiStepper-root {
+    padding: 10px !important;
+}
+.homebtn {
+    border: none;
+    background: #fff;
+    height: 35px;
+    width: 140px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #016acb;
+    cursor: pointer;
+}
+.main-divjregister {
+    padding-top: 0% !important;
+}

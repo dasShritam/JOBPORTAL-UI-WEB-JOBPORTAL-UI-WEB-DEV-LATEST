@@ -1,0 +1,4 @@
+input[type="time"]::-webkit-calendar-picker-indicator{
+    filter: invert(48%) saturate(3207%) hue-rotate(130deg) brightness(80%) contrast(80%);
+    cursor: pointer;
+}

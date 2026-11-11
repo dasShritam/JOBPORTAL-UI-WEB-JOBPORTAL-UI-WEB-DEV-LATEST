@@ -1,0 +1,82 @@
+.pendingCard {
+  font-size: 15px !important;
+  flex: auto;
+}
+
+.pendingcarddesc {
+  font-size: 13px;
+  color: #adadad;
+}
+
+.pendingButton {
+  background-color: white;
+  color: #4a90e2;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: auto;
+}
+.cardalign {
+  margin-bottom: -50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.emailverfy {
+  background-color: white;
+  color: #677dcb;
+  text-decoration: auto;
+  margin-top: -4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.emailverfy:hover {
+  text-decoration: auto;
+}
+
+.commonSty {
+  color: #666;
+}
+
+.VerifyRupload {
+  color: #1f9141;
+  background-color: #c5fad5;
+  padding: 7px 60px 7px 60px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.resumeformat {
+  font-size: 10.5px !important;
+  color: #868686;
+  font-weight: 500;
+  margin-top: -29px;
+  margin-left: 105px;
+}
+
+.pendingButton:hover {
+  text-decoration: auto !important;
+}
+
+
+.probtn{
+  float: right;
+  margin-right: 29px;
+  margin-top: 10px;
+}
+
+.backli{
+  border-bottom: 0px solid #e1e7ff !important;
+  margin-bottom: 6px !important;
+}
+.backlink{
+  margin-right: 114px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .backlink{
+    margin-right: 20px;
+  }
+}

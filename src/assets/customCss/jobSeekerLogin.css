@@ -1,0 +1,195 @@
+/* kiran style */
+
+.divider {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    color: #696969;
+    background: #ffffff;
+    margin: 10px 0 25px;
+}
+
+.divider span {
+    position: relative;
+    z-index: 9;
+}
+
+.divider:before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 1px;
+    width: 100%;
+    background: #ecedf2;
+    border-radius: 8px;
+    content: "";
+}
+
+.divider:after {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    height: 20px;
+    width: 60px;
+    background: #fff;
+    margin-left: -30px;
+    content: "";
+}
+
+.eye-btn-login {
+    position: relative;
+    left: 93%;
+    margin-top: -9%;
+}
+
+.extra-nav {
+    float: initial;
+    padding: 26px 0;
+    position: relative;
+    z-index: 9;
+}
+
+.login-footer .container {
+    border-top: 1px solid #fffbfb !important;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 500px) {
+    div#hiddenjsl {
+        display: none;
+    }
+}
+
+.element {
+    box-shadow: 0px 2px 8px -2px;
+}
+
+@media only screen and (max-width: 480px) {
+    .jobResp {
+        width: 91% !important;
+        font-size: 12px !important;
+    }
+    .custom-eye {
+        margin-top: -11% !important;
+    }
+
+    .loginresp {
+        margin-bottom: 32% !important;
+        margin-right: 10px !important;
+        margin-top: 55px !important;
+        width: 350px;
+        margin-left: 20px;
+    }
+}
+
+.custom-parent-div {
+    background-image: "url( " + bnr3 + ")";
+    background-position: "bottom";
+    background-repeat: "no-repeat";
+    background-size: "100%";
+}
+
+.custom-font-js {
+    font-weight: "bolder";
+    text-transform: "uppercase";
+}
+
+.custom-js-image {
+    width: 52%;
+}
+
+.custom-text-decoration {
+    text-decoration: none;
+}
+
+.custom-login-height {
+    height: 100%;
+}
+
+.custom-js-login-Sign-font {
+    font-size: 12px;
+}
+
+.custom-label {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.custom-span-color {
+    color: red;
+}
+
+.custom-eye {
+    display: block;
+    z-index: 99;
+    position: relative;
+    left: 92%;
+    margin-top: -9%;
+    cursor: pointer;
+}
+
+.custom-forgot-pwd-style {
+    color: #7b7a7a;
+    font-size: 13px;
+}
+
+.custom-varification {
+    font-size: 90px;
+    color: rgb(63, 81, 181);
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid rgb(35, 132, 178);
+    outline: none;
+    text-align: center;
+}
+
+.custom-content-inner-2 {
+    padding-top: 50px;
+}
+.login-2 {
+    height: 545px;
+    margin-top: 10px;
+}
+
+#hiddenjsl {
+    height: 520px;
+}
+
+.loginButton {
+    border: none;
+    background: #fff;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #016acb;
+    cursor: pointer;
+}
+
+.regButton {
+    border: none;
+    height: 30px;
+    background: #002559;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+.marginRight {
+    margin-right: 0 !important;
+}
+
+.form-error {
+    color: #ff3e3e;
+    font-size: 11.5px;
+    font-style: italic;
+}
+
+.loginError {
+    border: 1px solid #f91212cf !important;
+}

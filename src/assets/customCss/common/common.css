@@ -1,0 +1,286 @@
+body {
+  font-family: "poppins" !important;
+}
+
+span h1 h2 h3 h4 h5 h6 p label {
+  font-family: "poppins" !important;
+}
+
+.loginDiv {
+  margin: 0 14%;
+}
+
+.loginDivChild1 {
+  border-radius: 25px 0px 0px 25px;
+  background: #016acb;
+  padding: 3%;
+}
+.loginDivChild2 {
+  border-radius: 0px 25px 25px 0px;
+  background-color: #fff !important;
+}
+
+.loginDiv .desc {
+  color: #bfdaf2;
+  font-size: 13px;
+}
+
+.loginError {
+  border: 1px solid #f91212cf !important;
+}
+
+.backWhite {
+  background-color: #fff !important;
+}
+.textWhite {
+  color: #fff;
+}
+
+.divHeight {
+  max-height: 550px;
+}
+
+.filterjob {
+  padding: "0px 0px 0px 21px";
+}
+.homepage-container {
+  position: relative;
+  top: 22%;
+}
+.jobfindsection {
+  margin-top: 8%;
+}
+.logo-image {
+  width: 25%;
+}
+.profileUploadIcon {
+  top: 88;
+  right: 37px;
+}
+.profile-edit .canditate-des {
+  height: 100%;
+  border: "3px solid #fff";
+}
+
+.candidate-info img {
+  object-fit: contain;
+  height: 120px;
+  border-radius: 5px;
+  width: 120px;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .loginDivChild2 {
+    border-radius: 0;
+  }
+  .loginDivChild1 {
+    border-radius: 0px !important;
+  }
+  .forgotPassDiv {
+    display: none;
+  }
+  .homepageHeader {
+    height: 650px !important;
+  }
+  .filterjob {
+    padding: 0px 0px 15px 21px !important;
+  }
+  .homepage-container {
+    top: 31% !important;
+  }
+  .jobfindsection {
+    margin-top: 18% !important;
+  }
+  .logo {
+    display: none;
+  }
+  .divHeight {
+    max-height: auto !important;
+  }
+  .logo-image {
+    width: 60%;
+  }
+  .job-grid {
+    padding: 0 !important;
+  }
+  .gotoButton {
+    width: 100% !important;
+  }
+  .profile-edit .canditate-des {
+    width: 190px !important;
+    height: 70px !important;
+    margin: 10px 10px 12px 0px !important;
+  }
+  .profile-edit .canditate-des .upload-link {
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    font-size: 13px !important;
+  }
+  .profileUploadIcon {
+    top: 47;
+  }
+
+  .candidate-info img {
+    height: 80px !important;
+  }
+}
+
+.font13gray {
+  color: #7b7a7a;
+  font-size: 13px;
+}
+
+.job-card {
+  padding: 20px;
+  background-color: #fff;
+  height: 420px;
+  width: auto;
+  box-shadow: 0 0 10px 0 rgba(0, 24, 128, 0.1);
+  border-radius: 20px;
+}
+
+.com_logo {
+  width: 65px;
+  height: 65px;
+  box-shadow: 0 0 3px 0 rgba(0, 24, 128, 0.1);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.com_logo img {
+  width: 55px;
+}
+
+.job-requirements {
+  font-size: 13px;
+  color: #726d66;
+  word-break: break-all;
+}
+.job-title-name {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.apply-button {
+  border: none;
+  background-color: #016acb;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+  width: 100px;
+  color: #fff;
+  height: 35px;
+  cursor: pointer;
+}
+
+.job-grid {
+  padding: 0 5%;
+  margin: auto !important;
+}
+.jobHeight {
+  height: 100px;
+}
+
+.searchJob {
+  width: 90%;
+  height: 40px !important;
+}
+
+.faqdiv {
+  padding: 25px;
+  background: linear-gradient(
+    90deg,
+    hsla(114, 12%, 69%, 1) 0%,
+    hsla(189, 3%, 50%, 1) 100%
+  );
+  color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 24, 128, 0.1);
+  border-radius: 20px;
+}
+
+.faqdiv p {
+  font-size: 15px;
+}
+
+.faqdiv:hover {
+  background: linear-gradient(
+    90deg,
+    hsla(209, 100%, 40%, 1) 0%,
+    hsla(216, 93%, 36%, 1) 100%
+  );
+}
+.gotoButton {
+  border: none;
+  background: #fff;
+  width: 100;
+  padding: 9px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 35%;
+  cursor: pointer;
+}
+
+.homepageHeader {
+  height: 400px;
+  padding-top: 2%;
+  /* border-radius: 20px; */
+}
+
+.companyCopyright {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+/* .mainDiv {
+} */
+
+div:has(.mainDiv) {
+  background-color: #ededed ;
+  padding: 3% 0% ;
+}
+@supports (-moz-appearance: none) {
+  div.mainDiv {
+    background-color: #ededed;
+    padding: 3% 0%;
+  }
+}
+.login-background {
+  background-color: #ededed;
+}
+
+/* body {
+  background-color: #ededed;
+} */
+
+.forgotPassDiv {
+  background-color: #d3dce6;
+  border-radius: 25px 0px 0px 25px;
+  padding: 3%;
+}
+
+.setPassDiv {
+  background-color: #a1bdfc;
+  border-radius: 25px 0px 0px 25px;
+  padding: 3%;
+}
+
+.forgotHead {
+  margin-top: 15%;
+  text-align: center;
+  color: #004aad;
+}
+
+.gotohome:hover {
+  color: #fff !important;
+}
+
+.css-1nmdig5-menu{
+  z-index: 1099;
+}

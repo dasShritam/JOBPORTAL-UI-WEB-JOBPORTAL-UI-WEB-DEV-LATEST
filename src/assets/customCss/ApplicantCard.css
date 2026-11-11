@@ -1,0 +1,106 @@
+.round-box {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  /* change to fit your image size */
+  height: 30%;
+  /* change to fit your image size */
+}
+
+.round-box img {
+  width: 30%;
+  height: auto;
+}
+
+@media screen and (min-width: 500px) {
+  .myDiv2,
+  .myDiv3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .myCard3 {
+    height: 270px;
+  }
+  .myCard4 {
+    height: 305px;
+  }
+  .myMail1 {
+    margin-left: -33px;
+  }
+  .myIcon2 {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .myDiv3 {
+    margin-top: 10px;
+    display: block;
+    justify-content: space-between;
+  }
+
+  .myDiv2 {
+    margin-bottom: 36px;
+  }
+
+  .center-btn {
+    display: flex !important;
+  }
+
+  .mail {
+    margin-bottom: -79px !important;
+  }
+
+  .forward {
+    margin-bottom: -16px !important;
+  }
+
+  .myCard1 {
+    margin-top: -60px;
+    margin-bottom: 15px;
+  }
+
+  .myCard2 {
+    margin-bottom: 15px;
+  }
+
+  .myCard3 {
+    height: 340px;
+  }
+  .myCard4 {
+    height: 460px;
+  }
+  .myMail1 {
+    margin-top: -165px;
+  }
+  .myIcon1 {
+    float: right;
+  }
+}
+
+.post-job-bx ul li {
+  color: black !important;
+}
+
+.myCard3,
+.myCard4 {
+  padding: 15px;
+  background-color: #fff;
+  /* height: 420px; */
+  width: auto;
+  box-shadow: 0 0 10px 0 rgba(0, 24, 128, 0.1);
+  border-radius: 20px;
+}
+
+.myBtn1 {
+  border: none;
+  font-size: 13px;
+  background-color: #016acb;
+  padding: 0px 10px;
+  border-radius: 20px;
+  text-align: center;
+  /* width: 100px; */
+  color: #fff;
+  height: 28px;
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.border-red-400 {
+  border: 1px solid red;
+}
+.wrapper {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.char-count {
+  position: absolute;
+  height: 20px;
+  left: 0;
+  bottom: 0;
+}
+
+#main {
+  display: flex;
+  align-items: flex-end; /* Vertical align the elements to the center */
+}
+.header {
+  margin-left: 10px;
+}
+
+.vCv {
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.resumeDown {
+  font-size: 19px !important;
+  background-color: #eef1ff !important;
+  color: #6368ff !important;
+  border-radius: 27px !important;
+  padding: 8px 13px !important;
+  border-style: none !important;
+}
+
+.VideoDown {
+  font-size: 19px;
+  background-color: #dffffb;
+  color: #09d9bc;
+  border-radius: 27px !important;
+  padding: 10px 13px !important;
+  border-style: none !important;
+  cursor: pointer;
+}
+
+.crossbtn {
+  color: #59bd28;
+  border-style: none;
+  background-color: white;
+}

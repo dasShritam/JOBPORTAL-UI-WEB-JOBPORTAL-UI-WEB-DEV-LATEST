@@ -1,0 +1,15 @@
+.deleteBtn{
+  margin-right: 5%;
+  
+}
+
+.deleteModal{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 991px) {
+  .expstyle{
+    margin-top: 5px;
+  }
+}

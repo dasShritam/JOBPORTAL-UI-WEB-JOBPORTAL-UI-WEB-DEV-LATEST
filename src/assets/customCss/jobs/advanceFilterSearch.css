@@ -1,0 +1,20 @@
+.text-keySkills:hover {
+  border-radius:3px;
+  outline:solid 2px #3396d1;
+ 
+}
+@media only screen and (max-width: 767px) {
+  #displayId {
+    margin-left: 0% !important;
+  }
+}
+@media only screen and (max-width: 415px) {
+ .css-1jeouzx{
+  width: 300px !important;
+ padding-left:16px;
+ padding-right:16px; 
+ }
+ #headingjas{
+   margin-top: 80px !important;
+ }
+}

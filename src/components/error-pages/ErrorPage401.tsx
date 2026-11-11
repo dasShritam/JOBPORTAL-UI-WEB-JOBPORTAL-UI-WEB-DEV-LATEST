@@ -1,0 +1,57 @@
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import "../../assets/customCss/errorpage.css";
+var bnr = require("../../assets/images/banner/bnr1.jpg");
+
+function ErrorPage401() {
+  useEffect(() => {
+    sessionStorage?.clear();
+  }, []);
+  return (
+    <div className="page-wraper">
+      <div className="page-content">
+        <div
+          className="dez-bnr-inr overlay-black-middle"
+          style={{ backgroundImage: "url(" + bnr + ")" }}
+        >
+          <div className="container">
+            <div className="dez-bnr-inr-entry">
+              <h1 className="text-white">Error 401</h1>
+              <div className="breadcrumb-row">
+                <ul className="list-inline">
+                  <li>
+                    <Link to={"/home"}>Home</Link>
+                  </li>
+                  <li>Error 401</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="section-full content-inner-3 bg-white ErrorPages">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12 error-page text-center">
+                <h2
+                  className="dz_error text-secondry"
+                  style={{ marginBottom: "17px" }}
+                >
+                  401
+                </h2>
+
+                <h4 className="text-primary">You are not authorized!!</h4>
+                <p className="" style={{ fontFamily: "cursive" }}>
+                  Access allowed only for authorised user.
+                </p>
+                <Link to={"/home"} className="site-button">
+                  Go to Home page
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+export default ErrorPage401;

@@ -1,0 +1,31 @@
+.job-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.job-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.job-content {
+  font-weight: 500;
+  color: #606466;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.job-desc-label {
+  font-weight: 500;
+  color: #958f8f;
+  font-size: 15px;
+}
+.job-desc-content {
+  font-weight: 600;
+  font-size: 15px;
+  color: #565b5e;
+}
+.job-desc {
+  display: flex;
+  align-items: center;
+}
